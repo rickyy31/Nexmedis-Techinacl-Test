@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nexmedis_img</name>
+   <tag></tag>
+   <elementGuidId>42234a48-6030-4e75-9e5b-0674b79e33a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.dialog-content > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@src='/assets/logo-BGe6oakr.png']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>75af0b73-2a9a-45e5-b3a2-1c63786c618c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/assets/fail.svg</value>
+      <webElementGuid>6cf5b484-2a77-4f45-be5c-158e66eff91e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;modal&quot;]/dialog[1]/section[1]/div[@class=&quot;dialog-content&quot;]/img[1]</value>
+      <webElementGuid>945d1f2c-774f-4fb5-8e1f-0689d7271d23</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/img</value>
+      <webElementGuid>41fcf162-b687-4da5-99fc-43f4138dd8aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/assets/fail.svg']</value>
+      <webElementGuid>71c9283b-fb17-4bbd-9751-fde58b3df16d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

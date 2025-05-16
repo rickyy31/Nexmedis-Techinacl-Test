@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>failed_img</name>
+   <tag></tag>
+   <elementGuidId>150acb45-0ac2-4990-bdc8-6597009280e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.dialog-content > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@src='/assets/fail.svg']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>7bf39232-a4be-45b6-8289-15f0d591b13a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/assets/fail.svg</value>
+      <webElementGuid>a0913d8c-1f6e-4ec8-9ef9-dafa97dbd999</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;modal&quot;]/dialog[1]/section[1]/div[@class=&quot;dialog-content&quot;]/img[1]</value>
+      <webElementGuid>525369a4-e814-473f-8335-b16e1cc68b2c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/img</value>
+      <webElementGuid>bb513907-bfd1-4b3d-bb5f-4c5d76721353</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/assets/fail.svg']</value>
+      <webElementGuid>9c6bf471-5426-472c-8dd4-5606b41a38ab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testsuite_login" time="162.822" tests="6" failures="0" errors="0">
+   <testsuite name="Testsuite_login" tests="6" failures="0" errors="0" time="162.822" skipped="0" timestamp="2025-05-17 01:55:14" hostname="ricky.dwiaranda - DESKTOP-HA29RTI" id="Test Suites/Testsuite_login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\JobTest\\Nexmedis\\Login App Nexmedis\\Reports\\20250517_015504\\Testsuite_login\\20250517_015504"/>
+         <property name="logFiles" value="D:\\JobTest\\Nexmedis\\Login App Nexmedis\\Reports\\20250517_015504\\Testsuite_login\\20250517_015504\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ricky.dwiaranda - DESKTOP-HA29RTI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.10.208"/>
+         <property name="browser" value="Chrome 136.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.50"/>
+         <property name="sessionId" value="2c4c148b9175a4b4356a6c8063dada5e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login/wrong_ID_organisation" time="12.597" classname="Test Cases/login/wrong_ID_organisation" status="PASSED">
+         <system-out><![CDATA[2025-05-17 01:55:14 - [TEST_CASE][PASSED] - Test Cases/login/wrong_ID_organisation: Test Cases/login/wrong_ID_organisation
+
+2025-05-17 01:55:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-05-17 01:55:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-05-17 01:55:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-05-17 01:55:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-05-17 01:55:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-05-17 01:55:18 - [MESSAGE][PASSED] - Current window maximized
+
+2025-05-17 01:55:18 - [TEST_STEP][PASSED] - navigateToUrl("https://stg-app.nexmedis.com/"): Navigate to 'https://stg-app.nexmedis.com/' successfully
+
+2025-05-17 01:55:23 - [MESSAGE][PASSED] - Navigate to 'https://stg-app.nexmedis.com/' successfully
+
+2025-05-17 01:55:23 - [TEST_STEP][PASSED] - setText(findTestObject("login/input_id"), "officialnexmedis"): Text 'officialnexmedis' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:55:24 - [MESSAGE][PASSED] - Text 'officialnexmedis' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:55:24 - [TEST_STEP][PASSED] - click(findTestObject("login/button_solid")): Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:55:25 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:55:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login/failed_img"), 5): Object 'Object Repository/login/failed_img' is present
+
+2025-05-17 01:55:25 - [MESSAGE][PASSED] - Object 'Object Repository/login/failed_img' is present
+
+2025-05-17 01:55:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login/text_ID_tidak_valid"), 5): Object 'Object Repository/login/text_ID_tidak_valid' is present
+
+2025-05-17 01:55:26 - [MESSAGE][PASSED] - Object 'Object Repository/login/text_ID_tidak_valid' is present
+
+2025-05-17 01:55:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-05-17 01:55:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login/login_invalid_email" time="12.786" classname="Test Cases/login/login_invalid_email" status="PASSED">
+         <system-out><![CDATA[2025-05-17 01:55:27 - [TEST_CASE][PASSED] - Test Cases/login/login_invalid_email: Test Cases/login/login_invalid_email
+
+2025-05-17 01:55:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-05-17 01:55:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-05-17 01:55:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-05-17 01:55:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-05-17 01:55:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-05-17 01:55:29 - [MESSAGE][PASSED] - Current window maximized
+
+2025-05-17 01:55:29 - [TEST_STEP][PASSED] - navigateToUrl("https://stg-app.nexmedis.com/"): Navigate to 'https://stg-app.nexmedis.com/' successfully
+
+2025-05-17 01:55:34 - [MESSAGE][PASSED] - Navigate to 'https://stg-app.nexmedis.com/' successfully
+
+2025-05-17 01:55:34 - [TEST_STEP][PASSED] - setText(findTestObject("login/input_id"), "official_nexmedis"): Text 'official_nexmedis' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:55:35 - [MESSAGE][PASSED] - Text 'official_nexmedis' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:55:35 - [TEST_STEP][PASSED] - click(findTestObject("login/button_solid")): Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:55:35 - [TEST_STEP][PASSED] - setText(findTestObject("login/input_id"), "ricky@gmail.com"): Text 'ricky@gmail.com' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:55:36 - [MESSAGE][PASSED] - Text 'ricky@gmail.com' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:55:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("login/input_password"), "+TGLV7QsZ7ZP2s6xhLutwA=="): Text ****** has been set on object 'Object Repository/login/input_password'
+
+2025-05-17 01:55:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login/input_password'
+
+2025-05-17 01:55:37 - [TEST_STEP][PASSED] - click(findTestObject("login/button_solid")): Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:55:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("login/popup_notif"), 2): Object 'Object Repository/login/popup_notif' is visible
+
+2025-05-17 01:55:38 - [MESSAGE][PASSED] - Object 'Object Repository/login/popup_notif' is visible
+
+2025-05-17 01:55:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("login/popup_notif")): Object 'Object Repository/login/popup_notif' is visible
+
+2025-05-17 01:55:39 - [MESSAGE][PASSED] - Object 'Object Repository/login/popup_notif' is visible
+
+2025-05-17 01:55:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-05-17 01:55:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login/login_wrong_password" time="15.385" classname="Test Cases/login/login_wrong_password" status="PASSED">
+         <system-out><![CDATA[2025-05-17 01:55:39 - [TEST_CASE][PASSED] - Test Cases/login/login_wrong_password: Test Cases/login/login_wrong_password
+
+2025-05-17 01:55:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-05-17 01:55:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-05-17 01:55:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-05-17 01:55:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-05-17 01:55:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-05-17 01:55:43 - [MESSAGE][PASSED] - Current window maximized
+
+2025-05-17 01:55:43 - [TEST_STEP][PASSED] - navigateToUrl("https://stg-app.nexmedis.com/"): Navigate to 'https://stg-app.nexmedis.com/' successfully
+
+2025-05-17 01:55:50 - [MESSAGE][PASSED] - Navigate to 'https://stg-app.nexmedis.com/' successfully
+
+2025-05-17 01:55:50 - [TEST_STEP][PASSED] - setText(findTestObject("login/input_id"), "official_nexmedis"): Text 'official_nexmedis' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:55:50 - [MESSAGE][PASSED] - Text 'official_nexmedis' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:55:50 - [TEST_STEP][PASSED] - click(findTestObject("login/button_solid")): Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:55:51 - [TEST_STEP][PASSED] - setText(findTestObject("login/input_id"), "ricky.yudisi@gmail.com"): Text 'ricky.yudisi@gmail.com' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:55:52 - [MESSAGE][PASSED] - Text 'ricky.yudisi@gmail.com' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:55:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("login/input_password"), "f80LxPuIJeFXmJuqTmmGTKyqiK6cNnHU"): Text ****** has been set on object 'Object Repository/login/input_password'
+
+2025-05-17 01:55:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login/input_password'
+
+2025-05-17 01:55:52 - [TEST_STEP][PASSED] - click(findTestObject("login/button_solid")): Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:55:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("login/popup_notif"), 2): Object 'Object Repository/login/popup_notif' is visible
+
+2025-05-17 01:55:54 - [MESSAGE][PASSED] - Object 'Object Repository/login/popup_notif' is visible
+
+2025-05-17 01:55:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("login/popup_notif")): Object 'Object Repository/login/popup_notif' is visible
+
+2025-05-17 01:55:54 - [MESSAGE][PASSED] - Object 'Object Repository/login/popup_notif' is visible
+
+2025-05-17 01:55:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-05-17 01:55:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login/login_success" time="26.866" classname="Test Cases/login/login_success" status="PASSED">
+         <system-out><![CDATA[2025-05-17 01:55:55 - [TEST_CASE][PASSED] - Test Cases/login/login_success: Test Cases/login/login_success
+
+2025-05-17 01:55:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-05-17 01:55:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-05-17 01:55:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-05-17 01:55:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-05-17 01:55:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-05-17 01:55:57 - [MESSAGE][PASSED] - Current window maximized
+
+2025-05-17 01:55:57 - [TEST_STEP][PASSED] - navigateToUrl("https://stg-app.nexmedis.com/"): Navigate to 'https://stg-app.nexmedis.com/' successfully
+
+2025-05-17 01:56:03 - [MESSAGE][PASSED] - Navigate to 'https://stg-app.nexmedis.com/' successfully
+
+2025-05-17 01:56:03 - [TEST_STEP][PASSED] - setText(findTestObject("login/input_id"), "official_nexmedis"): Text 'official_nexmedis' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:56:04 - [MESSAGE][PASSED] - Text 'official_nexmedis' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:56:04 - [TEST_STEP][PASSED] - click(findTestObject("login/button_solid")): Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:56:04 - [TEST_STEP][PASSED] - setText(findTestObject("login/input_id"), "ricky.yudisi@gmail.com"): Text 'ricky.yudisi@gmail.com' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:56:05 - [MESSAGE][PASSED] - Text 'ricky.yudisi@gmail.com' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:56:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("login/input_password"), "+TGLV7QsZ7ZP2s6xhLutwA=="): Text ****** has been set on object 'Object Repository/login/input_password'
+
+2025-05-17 01:56:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login/input_password'
+
+2025-05-17 01:56:06 - [TEST_STEP][PASSED] - click(findTestObject("login/button_solid")): Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:56:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2025-05-17 01:56:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2025-05-17 01:56:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login/fasyankes_page"), 5): Object 'Object Repository/login/fasyankes_page' is present
+
+2025-05-17 01:56:10 - [MESSAGE][PASSED] - Object 'Object Repository/login/fasyankes_page' is present
+
+2025-05-17 01:56:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login/text_updateAkun"), 5): Object 'Object Repository/login/text_updateAkun' is present
+
+2025-05-17 01:56:10 - [MESSAGE][PASSED] - Object 'Object Repository/login/text_updateAkun' is present
+
+2025-05-17 01:56:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-05-17 01:56:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login/success_update_acc" time="46.727" classname="Test Cases/login/success_update_acc" status="PASSED">
+         <system-out><![CDATA[2025-05-17 01:56:22 - [TEST_CASE][PASSED] - Test Cases/login/success_update_acc: Test Cases/login/success_update_acc
+
+2025-05-17 01:56:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-05-17 01:56:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-05-17 01:56:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-05-17 01:56:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-05-17 01:56:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-05-17 01:56:41 - [MESSAGE][PASSED] - Current window maximized
+
+2025-05-17 01:56:41 - [TEST_STEP][PASSED] - navigateToUrl("https://stg-app.nexmedis.com/"): Navigate to 'https://stg-app.nexmedis.com/' successfully
+
+2025-05-17 01:56:49 - [MESSAGE][PASSED] - Navigate to 'https://stg-app.nexmedis.com/' successfully
+
+2025-05-17 01:56:49 - [TEST_STEP][PASSED] - setText(findTestObject("login/input_id"), "official_nexmedis"): Text 'official_nexmedis' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:56:50 - [MESSAGE][PASSED] - Text 'official_nexmedis' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:56:50 - [TEST_STEP][PASSED] - click(findTestObject("login/button_solid")): Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:56:50 - [TEST_STEP][PASSED] - setText(findTestObject("login/input_id"), "ricky.yudisi@gmail.com"): Text 'ricky.yudisi@gmail.com' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:56:51 - [MESSAGE][PASSED] - Text 'ricky.yudisi@gmail.com' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:56:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("login/input_password"), "+TGLV7QsZ7ZP2s6xhLutwA=="): Text ****** has been set on object 'Object Repository/login/input_password'
+
+2025-05-17 01:56:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login/input_password'
+
+2025-05-17 01:56:51 - [TEST_STEP][PASSED] - click(findTestObject("login/button_solid")): Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:56:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2025-05-17 01:56:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2025-05-17 01:56:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login/fasyankes_page"), 5): Object 'Object Repository/login/fasyankes_page' is present
+
+2025-05-17 01:56:55 - [MESSAGE][PASSED] - Object 'Object Repository/login/fasyankes_page' is present
+
+2025-05-17 01:56:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login/text_updateAkun"), 5): Object 'Object Repository/login/text_updateAkun' is present
+
+2025-05-17 01:56:56 - [MESSAGE][PASSED] - Object 'Object Repository/login/text_updateAkun' is present
+
+2025-05-17 01:56:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("login/input_first_name"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/login/input_first_name'
+
+2025-05-17 01:56:56 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/login/input_first_name'
+
+2025-05-17 01:56:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("login/input_first_name"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/login/input_first_name'
+
+2025-05-17 01:56:57 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/login/input_first_name'
+
+2025-05-17 01:56:57 - [TEST_STEP][PASSED] - setText(findTestObject("login/input_first_name"), "Ricky Nexmedis"): Text 'Ricky Nexmedis' is set on object 'Object Repository/login/input_first_name'
+
+2025-05-17 01:56:57 - [MESSAGE][PASSED] - Text 'Ricky Nexmedis' is set on object 'Object Repository/login/input_first_name'
+
+2025-05-17 01:56:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("login/input_last_name"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/login/input_last_name'
+
+2025-05-17 01:56:58 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/login/input_last_name'
+
+2025-05-17 01:56:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("login/input_last_name"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/login/input_last_name'
+
+2025-05-17 01:56:58 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/login/input_last_name'
+
+2025-05-17 01:56:58 - [TEST_STEP][PASSED] - setText(findTestObject("login/input_last_name"), "Bismillah"): Text 'Bismillah' is set on object 'Object Repository/login/input_last_name'
+
+2025-05-17 01:56:59 - [MESSAGE][PASSED] - Text 'Bismillah' is set on object 'Object Repository/login/input_last_name'
+
+2025-05-17 01:56:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("login/input_no_hp"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/login/input_no_hp'
+
+2025-05-17 01:57:00 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/login/input_no_hp'
+
+2025-05-17 01:57:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("login/input_no_hp"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/login/input_no_hp'
+
+2025-05-17 01:57:00 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/login/input_no_hp'
+
+2025-05-17 01:57:00 - [TEST_STEP][PASSED] - setText(findTestObject("login/input_no_hp"), "081234567890"): Text '081234567890' is set on object 'Object Repository/login/input_no_hp'
+
+2025-05-17 01:57:01 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/login/input_no_hp'
+
+2025-05-17 01:57:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("login/input_email_upd"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/login/input_email_upd'
+
+2025-05-17 01:57:01 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/login/input_email_upd'
+
+2025-05-17 01:57:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("login/input_email_upd"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/login/input_email_upd'
+
+2025-05-17 01:57:02 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/login/input_email_upd'
+
+2025-05-17 01:57:02 - [TEST_STEP][PASSED] - setText(findTestObject("login/input_email_upd"), "ricky.yudisi@gmail.com"): Text 'ricky.yudisi@gmail.com' is set on object 'Object Repository/login/input_email_upd'
+
+2025-05-17 01:57:02 - [MESSAGE][PASSED] - Text 'ricky.yudisi@gmail.com' is set on object 'Object Repository/login/input_email_upd'
+
+2025-05-17 01:57:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("login/input_password"), "+TGLV7QsZ7ZP2s6xhLutwA=="): Text ****** has been set on object 'Object Repository/login/input_password'
+
+2025-05-17 01:57:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login/input_password'
+
+2025-05-17 01:57:03 - [TEST_STEP][PASSED] - click(findTestObject("login/button_upd_acc")): Object: 'Object Repository/login/button_upd_acc' is clicked on
+
+2025-05-17 01:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_upd_acc' is clicked on
+
+2025-05-17 01:57:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login/success_img"), 5): Object 'Object Repository/login/success_img' is present
+
+2025-05-17 01:57:04 - [MESSAGE][PASSED] - Object 'Object Repository/login/success_img' is present
+
+2025-05-17 01:57:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login/text_success_upd"), 5): Object 'Object Repository/login/text_success_upd' is present
+
+2025-05-17 01:57:04 - [MESSAGE][PASSED] - Object 'Object Repository/login/text_success_upd' is present
+
+2025-05-17 01:57:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2025-05-17 01:57:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2025-05-17 01:57:05 - [TEST_STEP][PASSED] - click(findTestObject("login/button_solid")): Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:57:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2025-05-17 01:57:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2025-05-17 01:57:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-05-17 01:57:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login/logout_acc" time="47.923" classname="Test Cases/login/logout_acc" status="PASSED">
+         <system-out><![CDATA[2025-05-17 01:57:09 - [TEST_CASE][PASSED] - Test Cases/login/logout_acc: Test Cases/login/logout_acc
+
+2025-05-17 01:57:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-05-17 01:57:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-05-17 01:57:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-05-17 01:57:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-05-17 01:57:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-05-17 01:57:10 - [MESSAGE][PASSED] - Current window maximized
+
+2025-05-17 01:57:10 - [TEST_STEP][PASSED] - navigateToUrl("https://stg-app.nexmedis.com/"): Navigate to 'https://stg-app.nexmedis.com/' successfully
+
+2025-05-17 01:57:46 - [MESSAGE][PASSED] - Navigate to 'https://stg-app.nexmedis.com/' successfully
+
+2025-05-17 01:57:46 - [TEST_STEP][PASSED] - setText(findTestObject("login/input_id"), "official_nexmedis"): Text 'official_nexmedis' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:57:47 - [MESSAGE][PASSED] - Text 'official_nexmedis' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:57:47 - [TEST_STEP][PASSED] - click(findTestObject("login/button_solid")): Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:57:47 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:57:47 - [TEST_STEP][PASSED] - setText(findTestObject("login/input_id"), "ricky.yudisi@gmail.com"): Text 'ricky.yudisi@gmail.com' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:57:48 - [MESSAGE][PASSED] - Text 'ricky.yudisi@gmail.com' is set on object 'Object Repository/login/input_id'
+
+2025-05-17 01:57:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("login/input_password"), "+TGLV7QsZ7ZP2s6xhLutwA=="): Text ****** has been set on object 'Object Repository/login/input_password'
+
+2025-05-17 01:57:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login/input_password'
+
+2025-05-17 01:57:48 - [TEST_STEP][PASSED] - click(findTestObject("login/button_solid")): Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_solid' is clicked on
+
+2025-05-17 01:57:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2025-05-17 01:57:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2025-05-17 01:57:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login/fasyankes_page"), 3): Object 'Object Repository/login/fasyankes_page' is present
+
+2025-05-17 01:57:52 - [MESSAGE][PASSED] - Object 'Object Repository/login/fasyankes_page' is present
+
+2025-05-17 01:57:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login/text_updateAkun"), 3): Object 'Object Repository/login/text_updateAkun' is present
+
+2025-05-17 01:57:53 - [MESSAGE][PASSED] - Object 'Object Repository/login/text_updateAkun' is present
+
+2025-05-17 01:57:53 - [TEST_STEP][PASSED] - click(findTestObject("login/button_logout")): Object: 'Object Repository/login/button_logout' is clicked on
+
+2025-05-17 01:57:53 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_logout' is clicked on
+
+2025-05-17 01:57:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login/info_img"), 3): Object 'Object Repository/login/info_img' is present
+
+2025-05-17 01:57:53 - [MESSAGE][PASSED] - Object 'Object Repository/login/info_img' is present
+
+2025-05-17 01:57:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login/text_confirm_logout"), 3): Object 'Object Repository/login/text_confirm_logout' is present
+
+2025-05-17 01:57:54 - [MESSAGE][PASSED] - Object 'Object Repository/login/text_confirm_logout' is present
+
+2025-05-17 01:57:54 - [TEST_STEP][PASSED] - click(findTestObject("login/button_confirm_logout")): Object: 'Object Repository/login/button_confirm_logout' is clicked on
+
+2025-05-17 01:57:54 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_confirm_logout' is clicked on
+
+2025-05-17 01:57:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login/nexmedis_img"), 3): Object 'Object Repository/login/nexmedis_img' is present
+
+2025-05-17 01:57:55 - [MESSAGE][PASSED] - Object 'Object Repository/login/nexmedis_img' is present
+
+2025-05-17 01:57:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login/input_id"), 3): Object 'Object Repository/login/input_id' is present
+
+2025-05-17 01:57:55 - [MESSAGE][PASSED] - Object 'Object Repository/login/input_id' is present
+
+2025-05-17 01:57:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login/button_solid"), 3): Object 'Object Repository/login/button_solid' is present
+
+2025-05-17 01:57:56 - [MESSAGE][PASSED] - Object 'Object Repository/login/button_solid' is present
+
+2025-05-17 01:57:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-05-17 01:57:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2025-05-17 01:55:14 - [TEST_SUITE][PASSED] - Testsuite_login: Test Cases/login/logout_acc]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Testsuite_login,Chrome 120.0.0.0,,,30-01-2024 23:27:59,30-01-2024 23:28:40,41.725s,PASSED
+,,,,,,,
+Test Cases/login/login_empty,Chrome 120.0.0.0,,,30-01-2024 23:27:59,30-01-2024 23:28:06,7.294s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,30-01-2024 23:27:59,30-01-2024 23:28:02,2.784s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,30-01-2024 23:28:02,30-01-2024 23:28:02,0.184s,PASSED
+"navigateToUrl(""https://facebook.com"")",Chrome 120.0.0.0,,,30-01-2024 23:28:02,30-01-2024 23:28:04,1.544s,PASSED
+"click(findTestObject(""login/button_login""))",Chrome 120.0.0.0,,,30-01-2024 23:28:04,30-01-2024 23:28:04,0.520s,PASSED
+"waitForElementVisible(findTestObject(""login/validation_login_empty""), 0)",Chrome 120.0.0.0,,,30-01-2024 23:28:04,30-01-2024 23:28:06,1.331s,PASSED
+"verifyElementText(findTestObject(""login/validation_login_empty""), ""The email address or mobile number you entered isn't connected to an account. Find your account and log in."")",Chrome 120.0.0.0,,,30-01-2024 23:28:06,30-01-2024 23:28:06,0.346s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 23:28:06,30-01-2024 23:28:06,0.169s,PASSED
+,,,,,,,
+Test Cases/login/login_invalid_email,Chrome 120.0.0.0,,,30-01-2024 23:28:06,30-01-2024 23:28:17,10.790s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,30-01-2024 23:28:06,30-01-2024 23:28:08,1.193s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,30-01-2024 23:28:08,30-01-2024 23:28:08,0.143s,PASSED
+"navigateToUrl(""https://facebook.com"")",Chrome 120.0.0.0,,,30-01-2024 23:28:08,30-01-2024 23:28:09,1.414s,PASSED
+"setText(findTestObject(""login/input_email""), ""test@test.test"")",Chrome 120.0.0.0,,,30-01-2024 23:28:09,30-01-2024 23:28:10,0.846s,PASSED
+"setText(findTestObject(""login/input_password""), ""superuser99$$"")",Chrome 120.0.0.0,,,30-01-2024 23:28:10,30-01-2024 23:28:11,1.005s,PASSED
+"click(findTestObject(""login/button_login""))",Chrome 120.0.0.0,,,30-01-2024 23:28:11,30-01-2024 23:28:11,0.355s,PASSED
+"waitForElementVisible(findTestObject(""login/validation_invalid_email""), 0)",Chrome 120.0.0.0,,,30-01-2024 23:28:11,30-01-2024 23:28:17,5.232s,PASSED
+"verifyElementText(findTestObject(""login/validation_invalid_email""), ""The email address you entered isn't connected to an account. Find your account and log in."")",Chrome 120.0.0.0,,,30-01-2024 23:28:17,30-01-2024 23:28:17,0.313s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 23:28:17,30-01-2024 23:28:17,0.134s,PASSED
+,,,,,,,
+Test Cases/login/login_invalid_password,Chrome 120.0.0.0,,,30-01-2024 23:28:17,30-01-2024 23:28:28,10.889s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,30-01-2024 23:28:17,30-01-2024 23:28:18,0.810s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,30-01-2024 23:28:18,30-01-2024 23:28:18,0.128s,PASSED
+"navigateToUrl(""https://facebook.com"")",Chrome 120.0.0.0,,,30-01-2024 23:28:18,30-01-2024 23:28:20,1.511s,PASSED
+"setText(findTestObject(""login/input_email""), ""dwiaranda31@gmail.com"")",Chrome 120.0.0.0,,,30-01-2024 23:28:20,30-01-2024 23:28:20,0.830s,PASSED
+"setText(findTestObject(""login/input_password""), ""abcdefghijkl123"")",Chrome 120.0.0.0,,,30-01-2024 23:28:20,30-01-2024 23:28:21,0.889s,PASSED
+"click(findTestObject(""login/button_login""))",Chrome 120.0.0.0,,,30-01-2024 23:28:21,30-01-2024 23:28:22,0.337s,PASSED
+"waitForElementVisible(findTestObject(""login/validation_invalid_password""), 0)",Chrome 120.0.0.0,,,30-01-2024 23:28:22,30-01-2024 23:28:27,5.801s,PASSED
+"verifyElementText(findTestObject(""login/validation_invalid_password""), ""The password that you've entered is incorrect. Forgotten password?"")",Chrome 120.0.0.0,,,30-01-2024 23:28:27,30-01-2024 23:28:28,0.406s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 23:28:28,30-01-2024 23:28:28,0.110s,PASSED
+,,,,,,,
+Test Cases/login/login_success,Chrome 120.0.0.0,,,30-01-2024 23:28:28,30-01-2024 23:28:40,12.432s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,30-01-2024 23:28:28,30-01-2024 23:28:29,0.808s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,30-01-2024 23:28:29,30-01-2024 23:28:29,0.130s,PASSED
+"navigateToUrl(""https://facebook.com"")",Chrome 120.0.0.0,,,30-01-2024 23:28:29,30-01-2024 23:28:30,1.505s,PASSED
+"setText(findTestObject(""login/input_email""), ""satu.akun.dumm@gmail.com"")",Chrome 120.0.0.0,,,30-01-2024 23:28:30,30-01-2024 23:28:31,0.844s,PASSED
+"setText(findTestObject(""login/input_password""), ""superuser99$$"")",Chrome 120.0.0.0,,,30-01-2024 23:28:31,30-01-2024 23:28:32,0.994s,PASSED
+"click(findTestObject(""login/button_login""))",Chrome 120.0.0.0,,,30-01-2024 23:28:32,30-01-2024 23:28:33,0.369s,PASSED
+"waitForElementVisible(findTestObject(""login/facebook_name""), 0)",Chrome 120.0.0.0,,,30-01-2024 23:28:33,30-01-2024 23:28:38,5.242s,PASSED
+"verifyElementVisible(findTestObject(""login/facebook_name""))",Chrome 120.0.0.0,,,30-01-2024 23:28:38,30-01-2024 23:28:38,0.318s,PASSED
+"verifyElementVisible(findTestObject(""login/welcome_fb""))",Chrome 120.0.0.0,,,30-01-2024 23:28:38,30-01-2024 23:28:39,0.524s,PASSED
+"verifyElementVisible(findTestObject(""login/find_people""))",Chrome 120.0.0.0,,,30-01-2024 23:28:39,30-01-2024 23:28:39,0.615s,PASSED
+"verifyElementVisible(findTestObject(""login/upload_profile_picture""))",Chrome 120.0.0.0,,,30-01-2024 23:28:39,30-01-2024 23:28:40,0.304s,PASSED
+"verifyElementVisible(findTestObject(""login/privacy_setting""))",Chrome 120.0.0.0,,,30-01-2024 23:28:40,30-01-2024 23:28:40,0.538s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 23:28:40,30-01-2024 23:28:40,0.160s,PASSED

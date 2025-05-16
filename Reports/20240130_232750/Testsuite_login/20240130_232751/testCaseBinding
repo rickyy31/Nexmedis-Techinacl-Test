@@ -1,4 +1,0 @@
-{"testCaseName":"Test Cases/login/login_empty","testCaseId":"Test Cases/login/login_empty","iterationVariableName":""}
-{"testCaseName":"Test Cases/login/login_invalid_email","testCaseId":"Test Cases/login/login_invalid_email","iterationVariableName":""}
-{"testCaseName":"Test Cases/login/login_invalid_password","testCaseId":"Test Cases/login/login_invalid_password","iterationVariableName":""}
-{"testCaseName":"Test Cases/login/login_success","testCaseId":"Test Cases/login/login_success","iterationVariableName":""}

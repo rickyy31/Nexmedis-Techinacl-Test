@@ -1,0 +1,106 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Testsuite_login,Chrome 136.0.0.0,,,2025-05-17 01:55:14,2025-05-17 01:57:56,2m - 42.822s,PASSED
+,,,,,,,
+Test Cases/login/wrong_ID_organisation,Chrome 136.0.0.0,,,2025-05-17 01:55:14,2025-05-17 01:55:27,12.597s,PASSED
+"openBrowser("""")",Chrome 136.0.0.0,,,2025-05-17 01:55:15,2025-05-17 01:55:18,3.068s,PASSED
+maximizeWindow(),Chrome 136.0.0.0,,,2025-05-17 01:55:18,2025-05-17 01:55:18,0.115s,PASSED
+"navigateToUrl(""https://stg-app.nexmedis.com/"")",Chrome 136.0.0.0,,,2025-05-17 01:55:18,2025-05-17 01:55:23,5.385s,PASSED
+"setText(findTestObject(""login/input_id""), ""officialnexmedis"")",Chrome 136.0.0.0,,,2025-05-17 01:55:23,2025-05-17 01:55:24,0.878s,PASSED
+"click(findTestObject(""login/button_solid""))",Chrome 136.0.0.0,,,2025-05-17 01:55:24,2025-05-17 01:55:25,0.436s,PASSED
+"verifyElementPresent(findTestObject(""login/failed_img""), 5)",Chrome 136.0.0.0,,,2025-05-17 01:55:25,2025-05-17 01:55:25,0.595s,PASSED
+"verifyElementPresent(findTestObject(""login/text_ID_tidak_valid""), 5)",Chrome 136.0.0.0,,,2025-05-17 01:55:25,2025-05-17 01:55:26,0.455s,PASSED
+closeBrowser(),Chrome 136.0.0.0,,,2025-05-17 01:55:26,2025-05-17 01:55:27,1.106s,PASSED
+,,,,,,,
+Test Cases/login/login_invalid_email,Chrome 136.0.0.0,,,2025-05-17 01:55:27,2025-05-17 01:55:39,12.786s,PASSED
+"openBrowser("""")",Chrome 136.0.0.0,,,2025-05-17 01:55:27,2025-05-17 01:55:29,1.751s,PASSED
+maximizeWindow(),Chrome 136.0.0.0,,,2025-05-17 01:55:29,2025-05-17 01:55:29,0.084s,PASSED
+"navigateToUrl(""https://stg-app.nexmedis.com/"")",Chrome 136.0.0.0,,,2025-05-17 01:55:29,2025-05-17 01:55:34,5.107s,PASSED
+"setText(findTestObject(""login/input_id""), ""official_nexmedis"")",Chrome 136.0.0.0,,,2025-05-17 01:55:34,2025-05-17 01:55:35,0.877s,PASSED
+"click(findTestObject(""login/button_solid""))",Chrome 136.0.0.0,,,2025-05-17 01:55:35,2025-05-17 01:55:35,0.447s,PASSED
+"setText(findTestObject(""login/input_id""), ""ricky@gmail.com"")",Chrome 136.0.0.0,,,2025-05-17 01:55:35,2025-05-17 01:55:36,0.905s,PASSED
+"setEncryptedText(findTestObject(""login/input_password""), ""+TGLV7QsZ7ZP2s6xhLutwA=="")",Chrome 136.0.0.0,,,2025-05-17 01:55:36,2025-05-17 01:55:37,0.523s,PASSED
+"click(findTestObject(""login/button_solid""))",Chrome 136.0.0.0,,,2025-05-17 01:55:37,2025-05-17 01:55:37,0.446s,PASSED
+"waitForElementVisible(findTestObject(""login/popup_notif""), 2)",Chrome 136.0.0.0,,,2025-05-17 01:55:37,2025-05-17 01:55:38,0.783s,PASSED
+"verifyElementVisible(findTestObject(""login/popup_notif""))",Chrome 136.0.0.0,,,2025-05-17 01:55:38,2025-05-17 01:55:39,0.435s,PASSED
+closeBrowser(),Chrome 136.0.0.0,,,2025-05-17 01:55:39,2025-05-17 01:55:39,0.934s,PASSED
+,,,,,,,
+Test Cases/login/login_wrong_password,Chrome 136.0.0.0,,,2025-05-17 01:55:39,2025-05-17 01:55:55,15.385s,PASSED
+"openBrowser("""")",Chrome 136.0.0.0,,,2025-05-17 01:55:40,2025-05-17 01:55:43,2.757s,PASSED
+maximizeWindow(),Chrome 136.0.0.0,,,2025-05-17 01:55:43,2025-05-17 01:55:43,0.061s,PASSED
+"navigateToUrl(""https://stg-app.nexmedis.com/"")",Chrome 136.0.0.0,,,2025-05-17 01:55:43,2025-05-17 01:55:50,7.030s,PASSED
+"setText(findTestObject(""login/input_id""), ""official_nexmedis"")",Chrome 136.0.0.0,,,2025-05-17 01:55:50,2025-05-17 01:55:50,0.781s,PASSED
+"click(findTestObject(""login/button_solid""))",Chrome 136.0.0.0,,,2025-05-17 01:55:50,2025-05-17 01:55:51,0.437s,PASSED
+"setText(findTestObject(""login/input_id""), ""ricky.yudisi@gmail.com"")",Chrome 136.0.0.0,,,2025-05-17 01:55:51,2025-05-17 01:55:52,0.975s,PASSED
+"setEncryptedText(findTestObject(""login/input_password""), ""f80LxPuIJeFXmJuqTmmGTKyqiK6cNnHU"")",Chrome 136.0.0.0,,,2025-05-17 01:55:52,2025-05-17 01:55:52,0.463s,PASSED
+"click(findTestObject(""login/button_solid""))",Chrome 136.0.0.0,,,2025-05-17 01:55:52,2025-05-17 01:55:53,0.435s,PASSED
+"waitForElementVisible(findTestObject(""login/popup_notif""), 2)",Chrome 136.0.0.0,,,2025-05-17 01:55:53,2025-05-17 01:55:54,0.864s,PASSED
+"verifyElementVisible(findTestObject(""login/popup_notif""))",Chrome 136.0.0.0,,,2025-05-17 01:55:54,2025-05-17 01:55:54,0.375s,PASSED
+closeBrowser(),Chrome 136.0.0.0,,,2025-05-17 01:55:54,2025-05-17 01:55:55,0.844s,PASSED
+,,,,,,,
+Test Cases/login/login_success,Chrome 136.0.0.0,,,2025-05-17 01:55:55,2025-05-17 01:56:22,26.866s,PASSED
+"openBrowser("""")",Chrome 136.0.0.0,,,2025-05-17 01:55:55,2025-05-17 01:55:57,1.675s,PASSED
+maximizeWindow(),Chrome 136.0.0.0,,,2025-05-17 01:55:57,2025-05-17 01:55:57,0.051s,PASSED
+"navigateToUrl(""https://stg-app.nexmedis.com/"")",Chrome 136.0.0.0,,,2025-05-17 01:55:57,2025-05-17 01:56:03,6.052s,PASSED
+"setText(findTestObject(""login/input_id""), ""official_nexmedis"")",Chrome 136.0.0.0,,,2025-05-17 01:56:03,2025-05-17 01:56:04,0.775s,PASSED
+"click(findTestObject(""login/button_solid""))",Chrome 136.0.0.0,,,2025-05-17 01:56:04,2025-05-17 01:56:04,0.433s,PASSED
+"setText(findTestObject(""login/input_id""), ""ricky.yudisi@gmail.com"")",Chrome 136.0.0.0,,,2025-05-17 01:56:04,2025-05-17 01:56:05,1.023s,PASSED
+"setEncryptedText(findTestObject(""login/input_password""), ""+TGLV7QsZ7ZP2s6xhLutwA=="")",Chrome 136.0.0.0,,,2025-05-17 01:56:05,2025-05-17 01:56:06,0.545s,PASSED
+"click(findTestObject(""login/button_solid""))",Chrome 136.0.0.0,,,2025-05-17 01:56:06,2025-05-17 01:56:06,0.493s,PASSED
+delay(3),Chrome 136.0.0.0,,,2025-05-17 01:56:06,2025-05-17 01:56:09,3.051s,PASSED
+"verifyElementPresent(findTestObject(""login/fasyankes_page""), 5)",Chrome 136.0.0.0,,,2025-05-17 01:56:09,2025-05-17 01:56:10,0.610s,PASSED
+"verifyElementPresent(findTestObject(""login/text_updateAkun""), 5)",Chrome 136.0.0.0,,,2025-05-17 01:56:10,2025-05-17 01:56:10,0.493s,PASSED
+closeBrowser(),Chrome 136.0.0.0,,,2025-05-17 01:56:10,2025-05-17 01:56:22,11.282s,PASSED
+,,,,,,,
+Test Cases/login/success_update_acc,Chrome 136.0.0.0,,,2025-05-17 01:56:22,2025-05-17 01:57:08,46.727s,PASSED
+"openBrowser("""")",Chrome 136.0.0.0,,,2025-05-17 01:56:22,2025-05-17 01:56:41,18.652s,PASSED
+maximizeWindow(),Chrome 136.0.0.0,,,2025-05-17 01:56:41,2025-05-17 01:56:41,0.067s,PASSED
+"navigateToUrl(""https://stg-app.nexmedis.com/"")",Chrome 136.0.0.0,,,2025-05-17 01:56:41,2025-05-17 01:56:49,7.621s,PASSED
+"setText(findTestObject(""login/input_id""), ""official_nexmedis"")",Chrome 136.0.0.0,,,2025-05-17 01:56:49,2025-05-17 01:56:50,0.962s,PASSED
+"click(findTestObject(""login/button_solid""))",Chrome 136.0.0.0,,,2025-05-17 01:56:50,2025-05-17 01:56:50,0.407s,PASSED
+"setText(findTestObject(""login/input_id""), ""ricky.yudisi@gmail.com"")",Chrome 136.0.0.0,,,2025-05-17 01:56:50,2025-05-17 01:56:51,0.952s,PASSED
+"setEncryptedText(findTestObject(""login/input_password""), ""+TGLV7QsZ7ZP2s6xhLutwA=="")",Chrome 136.0.0.0,,,2025-05-17 01:56:51,2025-05-17 01:56:51,0.433s,PASSED
+"click(findTestObject(""login/button_solid""))",Chrome 136.0.0.0,,,2025-05-17 01:56:51,2025-05-17 01:56:52,0.422s,PASSED
+delay(3),Chrome 136.0.0.0,,,2025-05-17 01:56:52,2025-05-17 01:56:55,3.005s,PASSED
+"verifyElementPresent(findTestObject(""login/fasyankes_page""), 5)",Chrome 136.0.0.0,,,2025-05-17 01:56:55,2025-05-17 01:56:55,0.392s,PASSED
+"verifyElementPresent(findTestObject(""login/text_updateAkun""), 5)",Chrome 136.0.0.0,,,2025-05-17 01:56:55,2025-05-17 01:56:56,0.384s,PASSED
+"sendKeys(findTestObject(""login/input_first_name""), Keys.chord(CONTROL, ""a""))",Chrome 136.0.0.0,,,2025-05-17 01:56:56,2025-05-17 01:56:56,0.503s,PASSED
+"sendKeys(findTestObject(""login/input_first_name""), Keys.chord(BACK_SPACE))",Chrome 136.0.0.0,,,2025-05-17 01:56:56,2025-05-17 01:56:57,0.444s,PASSED
+"setText(findTestObject(""login/input_first_name""), ""Ricky Nexmedis"")",Chrome 136.0.0.0,,,2025-05-17 01:56:57,2025-05-17 01:56:57,0.898s,PASSED
+"sendKeys(findTestObject(""login/input_last_name""), Keys.chord(CONTROL, ""a""))",Chrome 136.0.0.0,,,2025-05-17 01:56:57,2025-05-17 01:56:58,0.428s,PASSED
+"sendKeys(findTestObject(""login/input_last_name""), Keys.chord(BACK_SPACE))",Chrome 136.0.0.0,,,2025-05-17 01:56:58,2025-05-17 01:56:58,0.392s,PASSED
+"setText(findTestObject(""login/input_last_name""), ""Bismillah"")",Chrome 136.0.0.0,,,2025-05-17 01:56:58,2025-05-17 01:56:59,0.787s,PASSED
+"sendKeys(findTestObject(""login/input_no_hp""), Keys.chord(CONTROL, ""a""))",Chrome 136.0.0.0,,,2025-05-17 01:56:59,2025-05-17 01:57:00,0.440s,PASSED
+"sendKeys(findTestObject(""login/input_no_hp""), Keys.chord(BACK_SPACE))",Chrome 136.0.0.0,,,2025-05-17 01:57:00,2025-05-17 01:57:00,0.398s,PASSED
+"setText(findTestObject(""login/input_no_hp""), ""081234567890"")",Chrome 136.0.0.0,,,2025-05-17 01:57:00,2025-05-17 01:57:01,0.719s,PASSED
+"sendKeys(findTestObject(""login/input_email_upd""), Keys.chord(CONTROL, ""a""))",Chrome 136.0.0.0,,,2025-05-17 01:57:01,2025-05-17 01:57:01,0.390s,PASSED
+"sendKeys(findTestObject(""login/input_email_upd""), Keys.chord(BACK_SPACE))",Chrome 136.0.0.0,,,2025-05-17 01:57:01,2025-05-17 01:57:02,0.505s,PASSED
+"setText(findTestObject(""login/input_email_upd""), ""ricky.yudisi@gmail.com"")",Chrome 136.0.0.0,,,2025-05-17 01:57:02,2025-05-17 01:57:02,0.713s,PASSED
+"setEncryptedText(findTestObject(""login/input_password""), ""+TGLV7QsZ7ZP2s6xhLutwA=="")",Chrome 136.0.0.0,,,2025-05-17 01:57:02,2025-05-17 01:57:03,0.407s,PASSED
+"click(findTestObject(""login/button_upd_acc""))",Chrome 136.0.0.0,,,2025-05-17 01:57:03,2025-05-17 01:57:03,0.502s,PASSED
+"verifyElementPresent(findTestObject(""login/success_img""), 5)",Chrome 136.0.0.0,,,2025-05-17 01:57:03,2025-05-17 01:57:04,0.679s,PASSED
+"verifyElementPresent(findTestObject(""login/text_success_upd""), 5)",Chrome 136.0.0.0,,,2025-05-17 01:57:04,2025-05-17 01:57:04,0.399s,PASSED
+delay(1),Chrome 136.0.0.0,,,2025-05-17 01:57:04,2025-05-17 01:57:05,1.014s,PASSED
+"click(findTestObject(""login/button_solid""))",Chrome 136.0.0.0,,,2025-05-17 01:57:05,2025-05-17 01:57:06,0.485s,PASSED
+delay(1),Chrome 136.0.0.0,,,2025-05-17 01:57:06,2025-05-17 01:57:07,1.011s,PASSED
+closeBrowser(),Chrome 136.0.0.0,,,2025-05-17 01:57:07,2025-05-17 01:57:08,1.727s,PASSED
+,,,,,,,
+Test Cases/login/logout_acc,Chrome 136.0.0.0,,,2025-05-17 01:57:09,2025-05-17 01:57:56,47.923s,PASSED
+"openBrowser("""")",Chrome 136.0.0.0,,,2025-05-17 01:57:09,2025-05-17 01:57:10,1.522s,PASSED
+maximizeWindow(),Chrome 136.0.0.0,,,2025-05-17 01:57:10,2025-05-17 01:57:10,0.066s,PASSED
+"navigateToUrl(""https://stg-app.nexmedis.com/"")",Chrome 136.0.0.0,,,2025-05-17 01:57:10,2025-05-17 01:57:46,35.224s,PASSED
+"setText(findTestObject(""login/input_id""), ""official_nexmedis"")",Chrome 136.0.0.0,,,2025-05-17 01:57:46,2025-05-17 01:57:47,0.792s,PASSED
+"click(findTestObject(""login/button_solid""))",Chrome 136.0.0.0,,,2025-05-17 01:57:47,2025-05-17 01:57:47,0.437s,PASSED
+"setText(findTestObject(""login/input_id""), ""ricky.yudisi@gmail.com"")",Chrome 136.0.0.0,,,2025-05-17 01:57:47,2025-05-17 01:57:48,0.952s,PASSED
+"setEncryptedText(findTestObject(""login/input_password""), ""+TGLV7QsZ7ZP2s6xhLutwA=="")",Chrome 136.0.0.0,,,2025-05-17 01:57:48,2025-05-17 01:57:48,0.485s,PASSED
+"click(findTestObject(""login/button_solid""))",Chrome 136.0.0.0,,,2025-05-17 01:57:48,2025-05-17 01:57:49,0.395s,PASSED
+delay(3),Chrome 136.0.0.0,,,2025-05-17 01:57:49,2025-05-17 01:57:52,3.012s,PASSED
+"verifyElementPresent(findTestObject(""login/fasyankes_page""), 3)",Chrome 136.0.0.0,,,2025-05-17 01:57:52,2025-05-17 01:57:52,0.357s,PASSED
+"verifyElementPresent(findTestObject(""login/text_updateAkun""), 3)",Chrome 136.0.0.0,,,2025-05-17 01:57:52,2025-05-17 01:57:53,0.354s,PASSED
+"click(findTestObject(""login/button_logout""))",Chrome 136.0.0.0,,,2025-05-17 01:57:53,2025-05-17 01:57:53,0.471s,PASSED
+"verifyElementPresent(findTestObject(""login/info_img""), 3)",Chrome 136.0.0.0,,,2025-05-17 01:57:53,2025-05-17 01:57:53,0.468s,PASSED
+"verifyElementPresent(findTestObject(""login/text_confirm_logout""), 3)",Chrome 136.0.0.0,,,2025-05-17 01:57:53,2025-05-17 01:57:54,0.391s,PASSED
+"click(findTestObject(""login/button_confirm_logout""))",Chrome 136.0.0.0,,,2025-05-17 01:57:54,2025-05-17 01:57:54,0.443s,PASSED
+"verifyElementPresent(findTestObject(""login/nexmedis_img""), 3)",Chrome 136.0.0.0,,,2025-05-17 01:57:54,2025-05-17 01:57:55,0.536s,PASSED
+"verifyElementPresent(findTestObject(""login/input_id""), 3)",Chrome 136.0.0.0,,,2025-05-17 01:57:55,2025-05-17 01:57:55,0.364s,PASSED
+"verifyElementPresent(findTestObject(""login/button_solid""), 3)",Chrome 136.0.0.0,,,2025-05-17 01:57:55,2025-05-17 01:57:56,0.357s,PASSED
+closeBrowser(),Chrome 136.0.0.0,,,2025-05-17 01:57:56,2025-05-17 01:57:56,0.896s,PASSED

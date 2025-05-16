@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>validation_invalid_password</name>
+   <tag></tag>
+   <elementGuidId>f4543566-73f8-4315-b83a-1e9c74369be6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div._9ay7</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = concat(&quot;The password you&quot; , &quot;'&quot; , &quot;ve entered is incorrect.&quot;) or . = concat(&quot;The password you&quot; , &quot;'&quot; , &quot;ve entered is incorrect.&quot;))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loginform']/div[2]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9bd5073c-4d30-4b7f-80cb-5d663ca4570f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_9ay7</value>
+      <webElementGuid>3d1cf597-74d7-42cd-85d2-c46763e180c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The password you've entered is incorrect.</value>
+      <webElementGuid>632c19ca-23b3-4ed2-8d13-bf0463c19950</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loginform&quot;)/div[@class=&quot;clearfix _5466 _44mg&quot;]/div[@class=&quot;_9ay7&quot;]</value>
+      <webElementGuid>9c34b0f5-5b37-4c7f-9e1c-1873b19b5df6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loginform']/div[2]/div[2]</value>
+      <webElementGuid>f4de5d3a-5d99-45c5-acff-14af00ed8e85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[2]/div[2]</value>
+      <webElementGuid>8efc2289-7838-4aa1-ac33-b8d877b10be5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;The password that you&quot; , &quot;'&quot; , &quot;ve entered is incorrect. Forgotten password?&quot;) or . = concat(&quot;The password that you&quot; , &quot;'&quot; , &quot;ve entered is incorrect. Forgotten password?&quot;))]</value>
+      <webElementGuid>4434928a-97b3-4de1-9595-599bfdbcf425</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

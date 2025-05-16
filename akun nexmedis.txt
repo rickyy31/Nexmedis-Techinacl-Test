@@ -1,0 +1,6 @@
+ID Organisasi: official_nexmedis
+Email: ricky.yudisi@gmail.com
+Pass: Nexmedis123
+
+Email: suprajal-qa@nexmedis.com
+Pass: password1234
