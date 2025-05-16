@@ -1,15 +1,36 @@
 # Jawaban TECHNICAL TEST - Quality Assurance
 =======
-1. UI Testing
-   a. Update akun
-        email: ricky.yudisi@gmail.com
-        password: Nexmedis123
-   b. Scenario Test Login App Nexmedis: https://docs.google.com/spreadsheets/d/1P8XvnBGqXei8nxlqluYYqDgibvE04pgefzoQd8x94-o/edit?usp=sharing
-   c. Testscript terdapat kedalam repository github ini: https://github.com/rickyy31/Nexmedis-Techinacl-Test/
-2. Medical Resume in Inpatient Module
-   a. Halaman rawat inap dan pasien telah didaftarkan
-![Rawat Inap Module - Find any patient](https://github.com/user-attachments/assets/842c9d19-8544-43c8-8c92-111b5b478784)
-   b. Klik info icon biru pada detail rawat inap pasien
-   ![Detail Rawat Inap Pasien](https://github.com/user-attachments/assets/2d7eb879-1230-4735-b5b2-065897989f2b)
-![Resume Medis Rawat Inap](https://github.com/user-attachments/assets/f5c14caa-77cb-4323-87a2-f9c1bf0ab0cb)
-   c. Scenariot Test: Probable Positive and Negative Sample: https://docs.google.com/spreadsheets/d/18x7MUwm_Z2Y9jfDhjgOVECCZbby1vLabeet1kUuJVjc/edit?usp=sharing
+## 1. UI Testing
+
+### a. Informasi Akun Uji
+- **Email:** `ricky.yudisi@gmail.com`  
+- **Password:** `Nexmedis123`
+
+### b. Scenario Test: Login App Nexmedis
+Seluruh skenario test login dapat dilihat pada link berikut:  
+[Login App Nexmedis - Test Scenario Spreadsheet](https://docs.google.com/spreadsheets/d/1P8XvnBGqXei8nxlqluYYqDgibvE04pgefzoQd8x94-o/edit?usp=sharing)
+
+### c. Kode Test Script
+Test script automated login tersedia di dalam repositori ini. Untuk melakukan run test bisa masuk ke dalam folder Test Cases - login
+
+---
+
+## 2. Medical Resume in Inpatient Module
+
+### a. Berikut pasien yang telah didaftarkan sebelumnya ke dalam rawat inap
+![Rawat Inap Module - Find any patient](https://github.com/user-attachments/assets/bd99d713-dc05-4089-9e05-adca8a0147c6)
+
+### b. Berikut detail rawat inap pasien detelah klik info pada icon biru
+![Detail Rawat Inap Pasien](https://github.com/user-attachments/assets/2564427a-8109-43d9-9abe-9e5c4b6ed1da)
+![Resume Medis Rawat Inap](https://github.com/user-attachments/assets/31e31556-6769-4125-9147-2abff81b002d)
+
+### c. Test Scenario (Positif & Negatif) beserta Priority dan Severity
+Seluruh skenario test dapat dilihat pada link berikut:  
+[Medical Resume Test Scenario (Positive & Negative)](https://docs.google.com/spreadsheets/d/18x7MUwm_Z2Y9jfDhjgOVECCZbby1vLabeet1kUuJVjc/edit?usp=sharing)
+
+---
+
+
+
+
+
