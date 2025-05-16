@@ -1,6 +1,0 @@
-{"testCaseName":"Test Cases/login/wrong_ID_organisation","testCaseId":"Test Cases/login/wrong_ID_organisation","iterationVariableName":""}
-{"testCaseName":"Test Cases/login/login_invalid_email","testCaseId":"Test Cases/login/login_invalid_email","iterationVariableName":""}
-{"testCaseName":"Test Cases/login/login_wrong_password","testCaseId":"Test Cases/login/login_wrong_password","iterationVariableName":""}
-{"testCaseName":"Test Cases/login/login_success","testCaseId":"Test Cases/login/login_success","iterationVariableName":""}
-{"testCaseName":"Test Cases/login/success_update_acc","testCaseId":"Test Cases/login/success_update_acc","iterationVariableName":""}
-{"testCaseName":"Test Cases/login/logout_acc","testCaseId":"Test Cases/login/logout_acc","iterationVariableName":""}
