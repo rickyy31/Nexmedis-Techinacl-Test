@@ -8,7 +8,7 @@
 
 ### b. Scenario Test: Login App Nexmedis
 Seluruh skenario test login dapat dilihat pada link berikut:  
-[Login App Nexmedis - Test Scenario Spreadsheet](https://docs.google.com/spreadsheets/d/1P8XvnBGqXei8nxlqluYYqDgibvE04pgefzoQd8x94-o/edit?usp=sharing)
+[Scenario Test: Login App Nexmedis](https://docs.google.com/spreadsheets/d/1P8XvnBGqXei8nxlqluYYqDgibvE04pgefzoQd8x94-o/edit?usp=sharing)
 
 ### c. Kode Test Script
 Test script automated login tersedia di dalam repositori ini. Untuk melakukan run test bisa masuk ke dalam folder Test Cases - login
@@ -26,7 +26,7 @@ Test script automated login tersedia di dalam repositori ini. Untuk melakukan ru
 
 ### c. Test Scenario (Positif & Negatif) beserta Priority dan Severity
 Seluruh skenario test dapat dilihat pada link berikut:  
-[Medical Resume Test Scenario (Positive & Negative)](https://docs.google.com/spreadsheets/d/18x7MUwm_Z2Y9jfDhjgOVECCZbby1vLabeet1kUuJVjc/edit?usp=sharing)
+[Scenariot Test: Probable Positive and Negative Sample](https://docs.google.com/spreadsheets/d/18x7MUwm_Z2Y9jfDhjgOVECCZbby1vLabeet1kUuJVjc/edit?usp=sharing)
 
 ---
 
