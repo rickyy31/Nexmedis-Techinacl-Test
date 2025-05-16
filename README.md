@@ -11,7 +11,7 @@ Seluruh skenario test login dapat dilihat pada link berikut:
 [Scenario Test: Login App Nexmedis](https://docs.google.com/spreadsheets/d/1P8XvnBGqXei8nxlqluYYqDgibvE04pgefzoQd8x94-o/edit?usp=sharing)
 
 ### c. Kode Test Script
-Test script automated login tersedia di dalam repositori ini. Untuk melakukan run test bisa masuk ke dalam folder Test Cases - login
+Test script automated login ini menggunakan Katalon Studio dan sudah tersedia di dalam repositori ini. Untuk melakukan run test bisa masuk ke dalam folder Test Cases - login
 
 ---
 
